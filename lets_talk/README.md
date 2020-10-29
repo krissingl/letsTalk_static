@@ -1,6 +1,6 @@
 # letsTalk_static
 Static version of Let'sTalk
-![](logo.png)
+![](public/logo.png)
 
 ## Summary
 
