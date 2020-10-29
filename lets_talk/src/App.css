@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgba(191, 250, 191, 0.685);
+  font-family: Verdana, Tahoma, sans-serif;
+  color: rgb(58, 57, 57);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  background-color: white;
+  outline: none;
+  border: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cleanUp {
+  background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  text-align: center;
+}
+.homePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 200px;
+  margin-left: 50px;
+}
+.navBarBox {
+  position: relative;
+  left:0;
+  right:0;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+.logo {
+  justify-content: left;
+  width: 100px;
+  height: 100px;
+}
+.imgDiv {
+  padding: 0;
+  margin: 0;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 25px;
+}
+.menuBtn {
+  font-size: 15px;
+  width: 130px;
+}
+.menuBtn:hover {
+  background-color: olivedrab;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.homeTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeSummary {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
 }
+.optionBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white
+}
+.promptBox {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+.prompt {
+  padding-top: 5px;
+  background-color: white;
+}
+.promptBtn {
+  background-color: olivedrab;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+}
+.promptBtn:hover {
+  background-color: rgb(187, 214, 133);
+  color: rgb(0, 0, 0);
+}
+.errorMsg {
+  color: red;
+}
+.wordCountBox {
+  width: 700px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.progressChart {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.listenBtnsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.listenBtns {
+  background-color: olivedrab;
+  color: white;
+  width: 80px;
+  height: 40px;
+}
+.listenBtns:hover {
+  background-color: rgb(187, 214, 133);
+  color: rgb(0, 0, 0);
+}
+.wordsBox {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px;
+}
+.words {
+  width: 1000px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
+}
+p {
+  margin: 0 0 3rem;
+}
+.words:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
+.speechControlBox {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.resetAndSaveBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.listeningSpan {
+  font-size: 20px;
+  background-color: white;
+  padding: 5px 15px 5px 15px;
+}
+.resetAndSaveBtn {
+  background-color: olivedrab;
+  color: white;
+  width: 150px;
+}
+.resetAndSaveBtn:hover {
+  background-color: rgb(187, 214, 133);
+  color: rgb(0, 0, 0);
+}
+.goalInput {
+  width: 200px;
+}
+.editThoughtsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.editBtn {
+  border-radius: 12px;
+  background-color: olivedrab;
+  color: white;
+  width: 80px;
+  height: 40px;
+}
+.editBtn:hover {
+  background-color: rgb(187, 214, 133);
+  color: rgb(0, 0, 0);
+}
+.thoughtListBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  background-color: white;
+}
+.thoughtList {
+  background-color: white;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.timeBtn {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.timeBtn:hover {
+  cursor: pointer;
+}
+/* background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px; */
