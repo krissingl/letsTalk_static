@@ -1,6 +1,9 @@
 ![](public/logo.png)
 
-Do you want practice speaking? In our experience, public speaking can be difficult- especially if you suffer from social anxiety. If you want to improve, but are unsure of the first step, my reccomendation for you is to practice. I know that that is a concept easier said than done, but let us help you get started. Let'sTalk is a very simple app that will listen and print what you say to the screen. With this version of Let'sTalk there is no saving feature so you don't have to worry about your words coming back to haunt you. Once you have hit the reset button, you have a clean slate. Let's talk and help you feel more confident in you words. Let's practice.
+Do you want practice speaking? In our experience, public speaking can be difficult- especially if you suffer from social anxiety. If you want to improve, but are unsure of the first step, my reccomendation for you is to practice. I know that that is a concept easier said than done, but let us help you get started. Let'sTalk is a very simple app that will listen and print what you say to the screen. Let's talk and help you feel more confident in you words.
+
+Let's practice.
+
 This static version of Let'sTalk utlizes the logic and themes of the original app, minus the saving thoughts feature.
 
 ## Summary
