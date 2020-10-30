@@ -1,4 +1,4 @@
-![](public/logo.png)
+![](lets_talk/public/logo.png)
 
 Do you want practice speaking? In our experience, public speaking can be difficult- especially if you suffer from social anxiety. If you want to improve, but are unsure of the first step, my reccomendation for you is to practice. I know that that is a concept easier said than done, but let us help you get started. Let'sTalk is a very simple app that will listen and print what you say to the screen. Let's talk and help you feel more confident in you words.
 
@@ -11,7 +11,7 @@ This static version of Let'sTalk utlizes the logic and themes of the original ap
 Self-help app that encourages users to practice speaking. For those with social anxiety or trouble speaking in public.
 
 ### Example Image
-![](example.png)
+![](lets_talk/example.png)
 
 ## Installation
 
