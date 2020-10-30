@@ -41,6 +41,9 @@ button {
   padding: 0;
   margin: 0;
 }
+.teacup:hover {
+  transform: scale(1.2);
+}
 .navBar {
   display: flex;
   flex-direction: row;
@@ -179,43 +182,3 @@ p {
 .goalInput {
   width: 200px;
 }
-.editThoughtsBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.editBtn {
-  border-radius: 12px;
-  background-color: olivedrab;
-  color: white;
-  width: 80px;
-  height: 40px;
-}
-.editBtn:hover {
-  background-color: rgb(187, 214, 133);
-  color: rgb(0, 0, 0);
-}
-.thoughtListBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-self: center;
-  background-color: white;
-}
-.thoughtList {
-  background-color: white;
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.timeBtn {
-  border: none;
-  outline: none;
-  background-color: white;
-}
-.timeBtn:hover {
-  cursor: pointer;
-}
-/* background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px; */
