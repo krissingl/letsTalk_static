@@ -7,9 +7,9 @@ const Launch = ({ changePage }) => (
     <p className="homeSummary">
       Would you like some practice speaking for social settings?
       <br />
-      Small talk, telling stories, interviewing for a job?
+      Small talk, telling stories, interviewing for a job? Talk to me and let's practice!
       <br />
-      Talk to me and let's practice! Click the teacup to began!
+      Click the teacup to began!
     </p>
     <div onClick={() => { changePage('spillTea'); }} className="imgDiv">
         <img className="teacup" src="https://lets-talk-environment.s3-us-west-1.amazonaws.com/logos/teaCup.png" alt="teacup" />
