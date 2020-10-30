@@ -9,7 +9,7 @@ const Launch = () => (
       <br />
       Small talk, telling stories, interviewing for a job?
       <br />
-      Talk to me and I'll hear you out! Select the "Let's Have Tea" tab at the top to get started!
+      Talk to me and let's practice! Select the "Let's Have Tea" tab at the top to get started!
     </p>
     <div><img className="teacup" src="https://lets-talk-environment.s3-us-west-1.amazonaws.com/logos/teaCup.png" alt="teacup" /></div>
   </div>
