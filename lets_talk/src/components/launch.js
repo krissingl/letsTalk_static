@@ -9,7 +9,7 @@ const Launch = ({ changePage }) => (
       <br />
       Small talk, telling stories, interviewing for a job?
       <br />
-      Talk to me and let's practice! Select the "Let's Have Tea" tab at the top to get started!
+      Talk to me and let's practice! Click the teacup to began!
     </p>
     <div onClick={() => { changePage('spillTea'); }} className="imgDiv">
         <img className="teacup" src="https://lets-talk-environment.s3-us-west-1.amazonaws.com/logos/teaCup.png" alt="teacup" />
