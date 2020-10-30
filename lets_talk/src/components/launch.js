@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Launch = () => (
+const Launch = ({ changePage }) => (
   <div className="homeTitle">
     <h4>WELCOME TO</h4>
     <h1>LET'S TALK</h1>
@@ -11,7 +11,9 @@ const Launch = () => (
       <br />
       Talk to me and let's practice! Select the "Let's Have Tea" tab at the top to get started!
     </p>
-    <div><img className="teacup" src="https://lets-talk-environment.s3-us-west-1.amazonaws.com/logos/teaCup.png" alt="teacup" /></div>
+    <div onClick={() => { changePage('spillTea'); }} className="imgDiv">
+        <img className="teacup" src="https://lets-talk-environment.s3-us-west-1.amazonaws.com/logos/teaCup.png" alt="teacup" />
+    </div>
   </div>
 );
 

@@ -11,7 +11,7 @@ function App() {
 
   if (page === 'home') {
     currentPage = (
-      <Launch />
+      <Launch changePage={changePage}/>
     )
   } else {
     currentPage = (
