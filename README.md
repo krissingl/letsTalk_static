@@ -13,7 +13,7 @@ Self-help app that encourages users to practice speaking. For those with social 
 ### Example Image
 ![](lets_talk/example.png)
 
-[Vist the App here!](https://lets-talk231.herokuapp.com/)
+[Visit Let'sTalk here!](https://lets-talk231.herokuapp.com/)
 
 ## Installation
 
