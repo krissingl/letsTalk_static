@@ -5,6 +5,7 @@ Do you want practice speaking? In our experience, public speaking can be difficu
 Let's practice.
 
 This static version of Let'sTalk utlizes the logic and themes of the original app, minus the saving thoughts feature.
+[Visit Let'sTalk here!](https://lets-talk231.herokuapp.com/)
 
 ## Summary
 
@@ -13,7 +14,6 @@ Self-help app that encourages users to practice speaking. For those with social 
 ### Example Image
 ![](lets_talk/example.png)
 
-[Visit Let'sTalk here!](https://lets-talk231.herokuapp.com/)
 
 ## Installation
 
